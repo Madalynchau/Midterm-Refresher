@@ -1,37 +1,33 @@
 /* Stylesheet */
 
 body {
-	background: #666;
+        background: url("../img/bg.png");
 }
 
-p, h3 { 
-font-family: 'Ruda', sans-serif;
-}
 
-h3 {
-	text-transform: uppercase;
-}
 
-header { 
+li {
 
 }
 
-nav {
-	
+nav  {
+  
 }
 
-blockquote {
-	
+
+
+p {
+    
 }
 
 footer {
-	
+
 }
 
 section {
-
 }
 
-.container_12 {
-	background: white;
+/* Helper Class to Show Grid */
+.showgrid {
+        background: url("../img/12-col-grid.gif");
 }
