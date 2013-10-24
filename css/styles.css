@@ -4,20 +4,30 @@ body {
         background: url("../img/bg.png");
 }
 
+#logo {
+        width: 50%;
+}
+
+p {
+        font-family: 'Noto Sans', sans-serif;
+}
+
 h3 {
 	text-transform: uppercase;
 }
 
-li {
-   float: left;
-   line-height: 50px;
-   list-style: none;
-	margin: 0 5px;
+ li {
+  float: left;  
+  line-height: 50px;
+  list-style: none;
+  		margin: 0 20px 0 10px;
   text-align: right;
-
+  width: 150px;
 }
 
-a {
+
+
+nav a {
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
@@ -48,8 +58,12 @@ a {
   background: url("../img/opera.png") no-repeat 50px center;
 }
 
-#microsoft a:hover {
-  background: url("../img/safari.png") no-repeat 50px center;
+
+footer {
+
+}
+
+section {
 }
 
 /* Helper Class to Show Grid */
