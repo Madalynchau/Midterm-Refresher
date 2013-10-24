@@ -5,26 +5,29 @@ body {
 }
 
 
-
 li {
-
-}
-
-nav  {
+  float: left;
+   line-height: 50px;
+  list-style: none;
+	margin: 0 5px;
   
-}
-
-
-
-p {
-    
-}
-
-footer {
+  text-align: right;
 
 }
 
-section {
+a {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  height: 50px;
+  width: 150px;  
+  display: block;
+  padding: 0 10px 0 0;
+}
+
+a:hover {
+  background: blue;
+
 }
 
 /* Helper Class to Show Grid */
