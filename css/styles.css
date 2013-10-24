@@ -4,13 +4,15 @@ body {
         background: url("../img/bg.png");
 }
 
+h3 {
+	text-transform: uppercase;
+}
 
 li {
-  float: left;
+   float: left;
    line-height: 50px;
-  list-style: none;
+   list-style: none;
 	margin: 0 5px;
-  
   text-align: right;
 
 }
@@ -25,9 +27,29 @@ a {
   padding: 0 10px 0 0;
 }
 
-a:hover {
-  background: blue;
+#google a:hover {
+  background: url("../img/chrome.png") no-repeat 55px center;
 
+}
+
+#mozilla a:hover {
+  background: url("../img/firefox.png") no-repeat 50px center;
+}
+
+#apple a:hover {
+  background: url("../img/safari.png") no-repeat 50px center;
+}
+
+#microsoft a:hover {
+  background: url("../img/ie.png") no-repeat 50px center;
+}
+
+#opera a:hover {
+  background: url("../img/opera.png") no-repeat 50px center;
+}
+
+#microsoft a:hover {
+  background: url("../img/safari.png") no-repeat 50px center;
 }
 
 /* Helper Class to Show Grid */
